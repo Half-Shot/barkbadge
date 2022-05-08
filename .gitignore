@@ -1,0 +1,8 @@
+secrets.py
+env/
+fursonas/*.json
+state.json
+dist/
+bin/*
+fursonas/*
+bitmaps/*

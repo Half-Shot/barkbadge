@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "halfy-badge"
+version = "0.1.0"
+description = ""
+authors = ["Half-Shot <will@half-shot.uk>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+adafruit-circuitpython-bitmap-font = "^1.5.6"
+adafruit-circuitpython-display-text = "^2.22.3"
+adafruit-io = "^2.7.0"
+adafruit-circuitpython-neopixel = "^6.3.0"
+adafruit-circuitpython-led-animation = "^2.5.15"
+adafruit-circuitpython-portalbase = "^1.13.0"
+adafruit-circuitpython-logging = "^3.7.6"
+isort = "^5.10.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
